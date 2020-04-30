@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/NOALVO/enx-vue-cli-plugin/issues"
   },
-  "homepage": "https://github.com/NOALVO/enx-vue-cli-plugin#readme"
+  "homepage": "https://github.com/NOALVO/enx-vue-cli-plugin#readme",
+  "dependencies": {
+    "@enx/env": "^1.2.0"
+  }
 }
