@@ -13,7 +13,7 @@ globals: {
 }
 ```
 
-## Vue global variable
+### Vue global variable
 
 Consider inject enx variable into your Vue instance using your main Vue App props (so you'd access it through `this.$root.enx`) or using Vue prototype as below:
 
