@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/NOALVO/enx-vue-cli-plugin#readme",
   "dependencies": {
-    "@enx/env": "^1.2.0"
+    "@enx/env": "^1.4.0"
   }
 }

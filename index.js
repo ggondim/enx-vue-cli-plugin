@@ -1,4 +1,6 @@
-const enx = require('@enx/env')();
+const enx = require('@enx/env')({
+  injectProcessEnvToEnx: false,
+});
 
 module.exports = (api, options) => {
   api.chainWebpack(webpackConfig => {
