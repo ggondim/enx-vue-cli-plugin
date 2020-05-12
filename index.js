@@ -1,8 +1,16 @@
-const enx = require('@enx/env')({
-  injectProcessEnvToEnx: false,
-});
+const load = require('@enx/env');
 
-module.exports = (api, options) => {
+const DEFAULT_PLUGIN_OPTIONS = {
+  injectProcessEnvToEnx: false,
+};
+
+module.exports = (api, options = {}) => {
+  let _options = DEFAULT_PLUGIN_OPTIONS;
+  if (options.enx) {
+    _options = Object.assign(_options, JSON.parse(JSON.stringify(options.enx)));
+  }
+  const enx = load(_options);
+
   api.chainWebpack(webpackConfig => {
     webpackConfig
       .plugin('define')
