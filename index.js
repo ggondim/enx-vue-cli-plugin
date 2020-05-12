@@ -6,8 +6,8 @@ const DEFAULT_PLUGIN_OPTIONS = {
 
 module.exports = (api, options = {}) => {
   let _options = DEFAULT_PLUGIN_OPTIONS;
-  if (options.enx) {
-    _options = Object.assign(_options, JSON.parse(JSON.stringify(options.enx)));
+  if (options && options.pluginOptions && options.pluginOptions.enx) {
+    _options = Object.assign(_options, JSON.parse(JSON.stringify(options.pluginOptions.enx)));
   }
   const enx = load(_options);
 
