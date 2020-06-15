@@ -1,0 +1,23 @@
+{
+  "name": "@enx/vue-cli-plugin-enx",
+  "version": "1.0.5",
+  "description": "Vue CLI plugin for Enx injection during webpack configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggondim/enx-vue-cli-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggondim/enx-vue-cli-plugin/issues"
+  },
+  "homepage": "https://github.com/ggondim/enx-vue-cli-plugin#readme",
+  "dependencies": {
+    "@enx/env": "^1.4.0"
+  }
+}
