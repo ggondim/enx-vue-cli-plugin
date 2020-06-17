@@ -1,6 +1,6 @@
 {
   "name": "@enx/vue-cli-plugin-enx",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Vue CLI plugin for Enx injection during webpack configuration",
   "main": "index.js",
   "scripts": {
